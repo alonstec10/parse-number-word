@@ -1,0 +1,23 @@
+{
+  "name": "parse-number-word",
+  "version": "1.0.0",
+  "description": "change numbers into words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telephone",
+    "numbers",
+    "words"
+  ],
+  "author": "alan fiedler <alonstec10@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.0.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
