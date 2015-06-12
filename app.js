@@ -260,7 +260,7 @@ var App = function(filepath) {
 
 				//utils.LogObject(nextgroup);
 
-				if(word >= firstword  && word <= lastWord) {
+				if(word >= firstword  && word <= lastWord || word >= firstword  && word >= lastWord) {
 					//use group
 					//utils.log("word first char ", word.charAt(0), " first word first char ", firstword.charAt(0).toLowerCase(), "word ", word, " next group first word ", nextGroupFirstWord);
 					//utils.log(group);
@@ -277,9 +277,9 @@ var App = function(filepath) {
 		};
  
 		//utils.LogObject(groups_to_look);
-		//for(var p in groups_to_look) {
-		//	utils.log("key ", p);
-		//}
+		for(var p in groups_to_look) {
+			//utils.log("key ", p);
+		}
 
 		var potential_finds 	=	new Array();
 

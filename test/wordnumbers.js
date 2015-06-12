@@ -104,7 +104,9 @@ describe("Testing Main Application", function(){
 				done();
 			} else {
 
-				app.GetWordCombinationsForNumbers(["4", "3", "5", "5"], function(words){
+				app.GetWordCombinationsForNumbers(["4", "3", "5"], function(words){
+
+					//utils.LogObject(words);
 
 					assert.notEqual(words.indexOf('hell'), 1);
 
